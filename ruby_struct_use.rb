@@ -10,5 +10,5 @@ class Space < Struct.new(:x, :y, :z); end
 origin = Space.new(0, 0, 0) 
 
 Space = Struct.new(:x, :y, :z)
-origin = Space(0, 0, 0)
+origin = Space.new(0, 0, 0)
 
